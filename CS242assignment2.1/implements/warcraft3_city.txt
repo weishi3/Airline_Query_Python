@@ -1,0 +1,42 @@
+
+{
+	"data sources" : [
+		"http://www.gcmap.com/" ,
+		"http://www.theodora.com/country_digraphs.html" ,
+		"http://www.citypopulation.de/world/Agglomerations.html" ,
+		"http://www.mongabay.com/cities_urban_01.htm" ,
+		"http://en.wikipedia.org/wiki/Urban_agglomeration" ,
+		"http://www.worldtimezone.com/standard.html"
+	] , 
+	"metros" : [
+		{
+			"code" : "CAPH" ,
+			"name" : "Dalaran" ,
+			"country" : "Human" ,
+			"continent" : "Lordaeron" ,
+			"timezone" : -3 ,
+			"coordinates" : {"N" : 44, "W" : 68} ,
+			"population" : 60000000000,
+			"region" : 1
+		} ,
+		{
+			"code" : "CAPU" ,
+			"name" : "UnderCity" ,
+			"country" : "Undead" ,
+			"continent" : "Lordaeron" ,
+			"timezone" : -3 ,
+			"coordinates" : {"N" : 66, "W" : 71} ,
+			"population" : 4000000 ,
+			"region" : 2
+		}
+	] ,
+	"routes" : [
+		{
+			"ports" : ["CAPH" , "CAPU"] ,
+			"distance" : 2453
+		} , {
+			"ports" : ["CAPU" , "CAPH"] ,
+			"distance" : 2453
+		}
+	]
+}
